@@ -1,0 +1,29 @@
+{
+  "name": "@jdesboeufs/batch-stream",
+  "version": "0.0.0",
+  "description": "Transform a stream of items into a stream of arrays",
+  "main": "index.js",
+  "repository": "git@github.com:jdesboeufs/batch-stream.git",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "get-stream": "^4.1.0",
+    "into-stream": "^4.0.0",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "engines": {
+    "node": ">= 6"
+  }
+}
